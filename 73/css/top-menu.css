@@ -1,0 +1,143 @@
+
+/* top */
+.top-menu {
+    width: 100%;
+    z-index:100;
+    border-bottom: 1px solid rgba(144, 144, 144, 0.25);
+    border-top: 1px solid rgba(144, 144, 144, 0.25);
+    height:60px;
+    margin-bottom:50px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    position: fixed;
+    background-color: #ffffff;
+    box-shadow: 0 1px 2px 2px rgba(144, 144, 144, 0.25);
+    font-size:10px;
+  }
+  
+  .divar-img {
+    height: 48px;
+    margin-left:15px;
+    vertical-align: middle;
+    width: 48px;
+  }
+  
+  .line {
+    display: inline-block;
+    height: 1.5rem;
+    width: 1px;
+    margin: 0 8px;
+    box-sizing: border-box;
+    background-color: rgba(144, 144, 144, 0.25);
+  }
+  
+  /* .nav{
+  
+    border:2px solid blue;
+  
+  } */
+  
+  .nav::after{
+    content: "";
+    clear: both;
+    display:block;
+  }
+  
+  .nav ul li {
+    display: inline;
+  }
+  
+  .btn {
+    border:0;
+    border-radius: 4px;
+    width:100px;
+    height:40px;
+    color: rgba(0, 0, 0, .87);
+    cursor: pointer;
+    text-align:center;
+    padding: 10px 10px;
+  transition: color 0.2s;
+  }
+  
+  .btn:hover{
+    background-color: rgba(144, 144, 144, 0.25);
+  }
+  
+  .btn-red {
+    border:0;
+    border-radius: 4px;
+    width:80px;
+    /* height:10px; */
+    cursor: pointer;
+    text-align: center;
+    padding: 10px 15px;
+    margin:10px 10px;
+    transition: color 0.2s;
+    background-color:#a62626 ;
+    color: #ffffff;
+    font-size: 12px;
+  
+  }
+  
+  .btn-red:hover{
+    opacity: 0.9;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .search{
+  width:40%;
+  height:30px;
+  background-color: rgba(196, 185, 185, 0.25);
+   margin:10px 40px 10px 10px;
+   display: inline-block;
+  }
+
+  .search-icon{
+    height:30px;
+    float:right;
+    background-color: rgba(196, 185, 185, 0.25);
+    vertical-align:middle;
+    right:256px;
+  
+  }
+  
+  .search-input{
+    background-color: rgba(236, 228, 228, 0.25);
+    line-height: 2.5;
+    border: none;
+    outline: none;
+    font-family: IranSans;
+    font-size:12px;
+  }
+  
+  .butten{
+    padding:20px 30px;
+  }
+  
+  .nav-bar{
+    float:right;
+    /* margin-top:5px; */
+  }
+  .ion-icon {
+    --ionicon-stroke-width:4rem;
+    font-size: 1.5rem !important;
+    transition: color 0.5s;
+    vertical-align: middle;
+  }
+  .privet{
+    padding-right:10px;
+    padding-top:5px;
+  }
+  .vertical-algin-middle{
+    vertical-align:middle;
+  }
+  
+  .nav-middel{
+    padding-top:5px;
+    height:50px;
+    text-align:left;
+    float: left;
+  }
+  
+  

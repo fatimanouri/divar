@@ -1,0 +1,44 @@
+
+/* responsive */
+
+@media screen and (max-width: 1270px) {
+    .advertise{
+      width: calc(calc(100% / 2) - 20px);
+      height: 180px;
+      margin: 0.5rem;
+    }
+    .container{
+      text-align: center;
+    }
+  }
+  
+  
+  @media screen and (max-width:1700px) {
+    .search-icon{
+     margin-left:50px;
+     margin-right: 50px;
+      position: fixed;
+      /* background-color: #a62626; */
+    }
+  }
+  
+  @media screen and (max-width:1250px) {
+    .search-input{
+      /* background-color: aqua; */
+      width:300px;
+    }
+    .right-side{
+      margin-left:150%;
+      /* background-color: aqua; */
+    }
+  }
+  
+   
+  @media screen and (max-width:1080px) {
+    .nav-middel{
+    
+      margin-bottom:200px;
+      display: inline-block;
+     
+    }
+  }

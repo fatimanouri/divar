@@ -1,0 +1,143 @@
+
+.right-side{
+    /* margin-right:5px; */
+    position: fixed;
+      height: calc(100vh - 64px);
+      padding: 32px 16px 0 16px;
+      width: 280px;
+      top: 64px;
+      overflow: auto;
+      font-size:12px;
+      
+  }
+  
+  .category a{
+  color: #0000008f;
+  text-decoration: none;
+  padding: 10px 0;
+  line-height: 2;
+  cursor: pointer;
+  transition: color .36s;
+  }
+  
+  .category a:hover{
+    color: black;
+  
+  }
+  
+  .category ul li{
+    list-style-type: none;
+  }
+  .category{
+    border-bottom: 1px solid rgba(144, 144, 144, 0.25);
+    width:300px;
+  
+  }
+  
+  
+  .same{
+    border-bottom: 1px solid rgba(144, 144, 144, 0.25);
+    padding: 8px 0;
+    width:300px;
+    height:40px;
+    cursor: pointer;
+  }
+   .same span{
+    color:#000000de;
+    margin: 0px 4px 0px 0px;
+    font-size: 12px;
+   }
+  
+  /* .big{
+    font-size: 16px;
+    color: #000000de;
+    margin: 0px 0px 8px;
+  } */
+/*   
+  .social-networks{
+    margin-top:20px;
+
+  } */
+  
+  
+  .social-networks > .list-item {
+    margin: 0 1.5rem;
+  }
+  .social-networks > .list-item-link {
+    width: 1.8rem;
+    height: 1.8rem;
+  }
+  
+  .about a{
+    color: #0000008f;
+    text-decoration: none;
+  
+  }
+  .about li{
+  margin-right:10px;
+  font-size: 12px;
+  
+  }
+  
+  .twitter {
+    background: url("https://api.iconify.design/mdi/twitter.svg?color=rgba(0%2C%200%2C%200%2C%200.561)")
+      no-repeat center center / contain;
+  }
+  .instagram {
+    background: url("https://api.iconify.design/ph/instagram-logo-fill.svg?color=rgba(0%2C%200%2C%200%2C%200.561)")
+      no-repeat center center / contain;
+  }
+  .linkedin {
+    background: url("https://api.iconify.design/carbon/logo-linkedin.svg?color=rgba(0%2C%200%2C%200%2C%200.561)")
+      no-repeat center center / contain;
+  }
+  .aparat {
+    background: url("https://api.iconify.design/simple-icons/aparat.svg?color=rgba(0%2C%200%2C%200%2C%200.561)")
+      no-repeat center center / contain;
+  }
+  .social-networks .twitter:hover {
+    background: url("https://api.iconify.design/mdi/twitter.svg?color=rgba(0%2C%200%2C%200%2C%200.871)")
+      no-repeat center center / contain;
+  }
+  .social-networks .instagram:hover {
+    background: url("https://api.iconify.design/ph/instagram-logo-fill.svg?color=rgba(0%2C%200%2C%200%2C%200.871)")
+      no-repeat center center / contain;
+  }
+  .social-networks .linkedin:hover {
+    background: url("https://api.iconify.design/ri/linkedin-box-fill.svg?color=rgba(0%2C%200%2C%200%2C%200.871)")
+      no-repeat center center / contain;
+  }
+  .social-networks .aparat:hover {
+    background: url("https://api.iconify.design/simple-icons/aparat.svg?color=rgba(0%2C%200%2C%200%2C%200.871)")
+      no-repeat center center / contain;
+  }
+  
+  .website{
+    overflow: hidden;
+  }
+  .website .list-item {
+    float: left;
+    width: 7rem;
+    height: 7rem;
+    margin: 1rem 0.5rem;
+  }
+  .website .list-item-link {
+    width: 100%;
+    height: 100%;
+  }
+  
+  
+  .about {
+    padding: 1rem 0.5rem;
+  }
+  .about .list-item {
+    line-height: 3;
+    margin: 0 0.5rem;
+  }
+  .about .list-item-link {
+    transition: color 0.5s;
+  }
+  .about .list-item-link:hover {
+    color: var(--black-alpha-80) !important;
+  }
+  
